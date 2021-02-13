@@ -1,11 +1,49 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# 忽略所有.iml文件
-* .iml
+# maven ignore
+target/
+!.mvn/wrapper/maven-wrapper.jar
+log
+build_submitter.log
+output/
+# *.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+tree.txt
 
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# vscode ignore
+.vscode/
+.factorypath
+
+# netBeans ignore
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# other
+/config
