@@ -8,11 +8,11 @@ import java.util.LinkedList;
  * @Version 1.0
  **/
 
-public class MyStack {
+public class MyStack1 {
     // 普通栈
-    private LinkedList<Integer> stackData = new LinkedList<>();
+    private final LinkedList<Integer> stackData = new LinkedList<>();
     // 取最小值的栈
-    private LinkedList<Integer> stackMin = new LinkedList<>();
+    private final LinkedList<Integer> stackMin = new LinkedList<>();
     @Test
     public void test() {
         push(3);
